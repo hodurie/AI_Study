@@ -49,4 +49,4 @@
 - ch.02 : 차원 축소에 사용하는 Manifold Learning가 무엇인가?
 - ch.03 : AutoEncoder의 종류
 - ch.04 : Variational AutoEncder의 종류
-- ch.05 : 실적용
+- ch.05 : 실적용 
