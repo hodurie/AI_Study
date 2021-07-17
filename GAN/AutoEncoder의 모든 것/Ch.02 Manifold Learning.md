@@ -30,9 +30,9 @@ Manifold Learning의 목적
 - 데이터가 갖고 있는 정보를 시각화를 통해 직관적으로 파악할 수 있음
     - 차원 축소가 필요한 이유
 
-## Curse of dimensionality
+## Curse of Dimensionality
 
-<img src='images/Manifold Learning/curseofDimensionality.jpg'>
+<img src='images/Manifold Learning/CoD.jpg'>
 
 차원의 저주
 - 차원이 증가할수록 한 공간에 데이터의 밀도가 희박해지는 문제
@@ -52,7 +52,7 @@ Manifold Learning을 통해 특정 Domain의 Manifold 찾음
 = 특정 Domain을 잘 어우르는 확률 분포를 찾음
 ```
 
-## Discovering most important features
+## Discovering Most Important Features
 
 <img src='images/Manifold Learning/Mnist.png'>
 

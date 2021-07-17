@@ -41,14 +41,14 @@ Stacking AutoEncoder
 
 AE를 이용한 Initialize 방법
 
-<img src='images/Autoencoders/StackingAE01.png'>
+<img src='images/Autoencoders/StackingAE.png' width=1000>
 
 - layer by layer로 weight를 초기화
     - `784`차원에서 `1000`차원으로 가는 weight를 만듦
     - 다시 이전 차원으로 돌아왔을 때 원복이 가능한 weight로 초기화
     - 위의 과정을 마지막 layer까지 반복
 
-<img src='images/Autoencoders/StackingAE02.png'>
+<img src='images/Autoencoders/StackingAE1.png'>
 
 - 학습이 끝나면 데이터를 넣어 BackPropagation 진행
 
@@ -75,7 +75,7 @@ AE와 DAE 비교
 - DAE가 AE보다 Edge를 더 잘 추출함
     - DAE의 성능이 더 뛰어남
 
-<img src='images/Autoencoders/SDAE.png'>
+<img src='images/Autoencoders/SDAE00.png'>
 
 SAE에 Zero-masking Noise를 추가하며 비교
 > Zero-masking : 지정한 값의 확률로 화소를 0으로 만드는 방법
@@ -83,7 +83,7 @@ SAE에 Zero-masking Noise를 추가하며 비교
 
 ## Stochastic Contractive AutoEncoder
 
-<img src='images/Autoencoders/SCAE.png'>
+<img src='images/Autoencoders/SCAE00.png'>
 
 - Loss Function을 보면 기존 AutoEnocder의 Loss Function과 Stochastic Regularization으로 구성
     - AutoEncoder의 Loss Function
@@ -94,6 +94,6 @@ SAE에 Zero-masking Noise를 추가하며 비교
 
 ## Contractive AutoEncoder
 
-<img src='images/Autoencoders/CAE.png'>
+<img src='images/Autoencoders/CAE00.png'>
 
 - SCAE의 Stochastic Regularization을 Taylor series expansion으로 근사 시킨 항을 사용
